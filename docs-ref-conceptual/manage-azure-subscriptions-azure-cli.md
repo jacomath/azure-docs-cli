@@ -32,7 +32,7 @@ Many Azure CLI commands act within a subscription. You can always specify which 
 To see the subscription you're currently using, run the [az account show](/cli/azure/account#az_account_show) command:
 
 ```azurecli
-az account show --output table
+az account show --output table test
 ```
 
 > [!TIP]
